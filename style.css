@@ -1,0 +1,235 @@
+
+/* Start header Part */
+nav{
+    height: 80px;
+   width: 100%;
+  }
+  nav .logo{
+    font-size: 30px;
+    margin: 0 120px;
+    font-weight: bold;
+    line-height: 85px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 58px;
+    margin-right: 20px;
+  }
+  .checkbtn{
+    float: right;
+    color: rgb(10, 7, 7);
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  /* End header Part */
+
+/* start first section */
+  .first-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 70px;
+  }
+
+  .First-area{
+    height: 400px;
+  }
+
+.First-area h1{
+  font-size: 70px;
+}
+.First-area p{
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 22px;
+}
+.First-area button{
+ background-color: #E02C6D;
+ color: white;
+ font-size: 18px;
+ padding: 10px 23px;
+ border: none;
+ border-radius: 45px;
+ cursor: pointer;
+}
+.First-area button:hover{
+ background-color: black;
+ color: #E02C6D;
+}
+.First-area img{
+    padding-left: 100px;
+  }
+  /* end first section */
+
+/* start second section */
+  .second-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    column-gap: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+ 
+  .common-logo{
+    height: 100px;
+  }
+  .common-logo img{
+   display: block;
+   margin: auto;
+   width: 82px;
+    padding-top: 31px;
+  }
+
+
+  /* Start Third Section */
+.third-section{
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+.heading-area{
+  height: 145px;
+  width: 100%;
+}
+.heading-area h1{
+ font-size: 40px;
+ text-align: center;
+ line-height: 130px;
+}
+.card-area{
+  width: 82%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 70px;
+}
+
+.common-card-one{
+  /* height: 135%; */
+  box-shadow: 5px 8px 18px #aaa;
+  border-radius: 10px;
+}
+.common-card-one img{
+  height: 245px;
+    width: 95%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+
+}
+.common-card-one h1{
+ font-size:30px;
+ margin-left: 10px;
+ padding-top: 5px;
+}
+.common-card-one p{
+ font-size:30px;
+ margin-left: 10px;
+ padding-top: 5px;
+}
+.common-card-one .star{
+ margin-left: 10px;
+ color: #FB8200;
+}
+.star span{
+  color: #5E6366;
+  margin-left: 10px;
+}
+.para p{
+  font-size: 18px;
+  color: #5E6366;
+}
+/* end third section */
+
+/* Start forth section */
+.forth-section{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  column-gap: 20px;
+  padding-bottom: 40px;
+}
+
+.product h1{
+  font-size: 62px;
+}
+.product p{
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 22px;
+}
+.product button{
+  background-color: #E02C6D;
+  color: white;
+  font-size: 18px;
+  padding: 10px 23px;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+ }
+ .product button:hover{
+  background-color: black;
+  color: #E02C6D;
+ }
+ .product img{
+  height: 250px;
+  width: 400px;
+  padding-left: 25%;
+  padding-top: 12%;
+ }
+ /* end forth section */
+
+ /* Start Footer Part */
+ footer{
+  height: 250px;
+  width: 100%;
+  background-color: #0A0826;
+}
+footer h1{
+ color: white;
+ text-align: center;
+ padding-top: 38px;
+ 
+}
+footer p{
+ color: white;
+ text-align: center;
+ font-size: 18px;
+
+}
+footer .icon{
+ color: white;
+ text-align: center;
+ font-size: 18px;
+
+}
+footer .icon i{
+padding-right: 10px;
+}
+
+ /* End Footer Part */
+ 
